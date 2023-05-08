@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You n Me</title>
+    <link rel="stylesheet" href="./examplepage1_files/partner.css">
+
+    </head><body><button tabindex="-1" id="bocchi2" style="left: 35%;">NO</button>
+    <script>
+        const button2 = document.getElementById('bocchi2');
+        let left = 40;
+        button2.addEventListener('mouseover', function() {
+          if(left == 40){
+            left = 20;
+          }else{
+            left = 40;
+          }
+          this.style.left = left + '%';
+        });
+        if (window.matchMedia("(max-width: 700px)").matches){
+          let left = 20;
+          button2.addEventListener('mouseenter', function() {
+          if(left == 30){
+            left = 15;
+          }else{
+            left = -10;
+          }
+          this.style.left = left + '%';
+        });
+        }
+        </script>
+        
+
+
+
+    
+<p class="heading">Can we go out on a date ? :)</p>
+<img class="pic" src="./examplepage1_files/puppy-dog.gif" alt="">
+<title>Bocchi</title>
+
+
+
+
+    <button id="bocchi1" onclick="openModal()">Yes.Sure.XOXO :)</button>
+
+
+    <dialog id="dialog">
+        <img class="pic1" src="./examplepage1_files/pic.jpg" width="210px" height="250px" alt="">
+        <br>
+        <center><p>YAYY THANK U ! LOVE U</p></center>
+        
+    <button onclick="closeModal()" class="right">close &gt;&lt;<!--3--></button>
+    </dialog>
+
+
+<script>
+    var dailog = document.getElementById("dialog"); 
+
+function openModal() { 
+    
+      dailog.showModal();
+} 
+
+function closeModal() { 
+    dailog.close(); 
+}
+</script>
+
+
+
+</body></html>
