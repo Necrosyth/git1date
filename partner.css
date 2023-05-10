@@ -20,7 +20,7 @@ button{
     margin-left: 3vw;
 }
 
-#bocchi2 {
+#id2 {
     position: absolute;
      left: 45%;
       top: 511px;
@@ -43,7 +43,7 @@ button{
 }
 
     
-#bocchi1 {
+#id1 {
     position: fixed;
     top: 521px;
     left: 53%;
@@ -59,12 +59,12 @@ button{
         width: 75%;        
     }
 
-    #bocchi1 {
+    #id1 {
         top: 432px;
         left: 65%;
     }
 
-    #bocchi2 {
+    #id2 {
          left: 35%;
          top: 421px;
     }
